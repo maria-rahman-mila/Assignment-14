@@ -1,0 +1,7 @@
+code:
+Map.centerObject(Ftcl);
+print(Ftcl);
+var addproperty= Ftcl.map(function(ft){
+  return ft.set("class","waterbody")
+})
+print(addproperty);

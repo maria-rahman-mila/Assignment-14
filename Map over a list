@@ -1,1 +1,8 @@
+code:
+var list= ee.List([1,2,3,4,5]).map(function(elm){
+  return ee.Feature(null,{"value":elm})
+})
+print(list);
 
+ var lst_of_fc= ee.FeatureCollection(applymap)
+ print(lst_of_fc)
